@@ -3,9 +3,9 @@ let leftWeight = 0, rightWeight = 0;
 let balanceAngle = 0;
 
 function preload() {
-    images.push({ img: loadImage('img1.png'), x: 100, y: 200, weight: 3, side: null });
-    images.push({ img: loadImage('img2.png'), x: 200, y: 200, weight: 5, side: null });
-    images.push({ img: loadImage('img3.png'), x: 300, y: 200, weight: 2, side: null });
+    images.push({ img: loadImage('img1.png'), x: 100, y: 200, weight: 3, side: left });
+    images.push({ img: loadImage('img2.png'), x: 200, y: 200, weight: 5, side: right });
+    images.push({ img: loadImage('img3.png'), x: 300, y: 200, weight: 2, side: right });
 }
 
 function setup() {
